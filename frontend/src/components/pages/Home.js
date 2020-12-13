@@ -138,6 +138,7 @@ function Home() {
 
   return (
     <div className="container">
+      <h1 style={{textAlign:"center"}}>Welcome, {userData.user.displayName}!</h1>
       <section>
         <h3>Create new project</h3>
         {error && (
@@ -194,7 +195,6 @@ function Home() {
                                 className="task-delete-icon"
                                 onClick={() => {
                                   //setTaskIndex(index);
-
                                   deleteTask(project._id, task._id);
                                 }}
                               />
