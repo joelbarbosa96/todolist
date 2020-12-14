@@ -2,4 +2,4 @@
 
 Projects todolist
 
-![Alt text](sample.png?raw=true "Sample")
+![Sample](sample.PNG?raw=true "Sample")
